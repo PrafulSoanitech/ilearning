@@ -1,0 +1,25 @@
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Ignore certain files and directories
+[.next]
+ignore = true
+
+[.next/*]
+ignore = true
+
+[out]
+ignore = true
+
+[.vercel]
+ignore = true
+
+[node_modules]
+ignore = true
